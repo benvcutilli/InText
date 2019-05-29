@@ -1,31 +1,31 @@
                             InText
 InText is a program that places citations in a file and creates a bibliography
 for those citations to refer to. In this sense, it is similar to
-<see ggcb><see fjab><see fegg> and <see ccfh>, which provide similar functionality. Here
+<see hfej><see gbhd><see jfje> and <see iagg>, which provide similar functionality. Here
 are the ways in which InText is similar:
   A. Users put markers throughout a file to tell InText where to place
      citations
-    1. Such a file is a plain-text file (idea from <see ggcb><see fjab><see fegg> only)
+    1. Such a file is a plain-text file (idea from <see hfej><see gbhd><see jfje> only)
     2. A marker is written in plain-text as a piece of markup (idea from
-       <see ggcb><see fjab><see fegg> only)
+       <see hfej><see gbhd><see jfje> only)
     3. Markers make an association with a reference through a key placed in the
-       marker (idea from <see ggcb><see fjab><see fegg> only). Further, each marker can refer
-       to multiple references (idea from <see ggcb><see fjab><see fegg> only).
+       marker (idea from <see hfej><see gbhd><see jfje> only). Further, each marker can refer
+       to multiple references (idea from <see hfej><see gbhd><see jfje> only).
     3. A locator for a reference can be included with marker information
-       (regarding <see ggcb><see fjab><see fegg>, I don't know if it allows multiple
+       (regarding <see hfej><see gbhd><see jfje>, I don't know if it allows multiple
        references associated with a marker where each has their own locator).
   B. A bibliography is made using only references that were cited (idea from
-     <see ggcb><see fjab><see fegg> only)
+     <see hfej><see gbhd><see jfje> only)
       1. The bibliography will also be searched for markers in case something
-         in the bibliography cites a reference (idea from <see ggcb><see fjab><see fegg>
+         in the bibliography cites a reference (idea from <see hfej><see gbhd><see jfje>
          only)
       2. InText draws bibliography information from a structure the user
-         creates (like <see ggcb><see fjab><see fegg>, this structure is contained in its own
+         creates (like <see hfej><see gbhd><see jfje>, this structure is contained in its own
          file)
          i.   Each reference described in this file is given a unique key so
               that the reference can be associated with a marker (idea from
-              <see ggcb><see fjab><see fegg> only)
-         ii.  Just like <see ccfh> and <see ggcb><see fjab><see fegg>, a set of information
+              <see hfej><see gbhd><see jfje> only)
+         ii.  Just like <see iagg> and <see hfej><see gbhd><see jfje>, a set of information
               is defined for each reference. An element of this set may
               include the reference's title, for example. The value of this
               element is associated with a key describing the element.
@@ -36,11 +36,11 @@ are the ways in which InText is similar:
   C. The style of a formatted in-text citation and the formatted bibliography
      is changeable. Users just need to change a variable for each to a plugin
      function with a compatible argument signature (I don't know if such
-     variables exist in <see ggcb><see fjab><see fegg> and <see ccfh>, but some sort of
-     plugin facility exists in <see ggcb><see fjab><see fegg>).
+     variables exist in <see hfej><see gbhd><see jfje> and <see iagg>, but some sort of
+     plugin facility exists in <see hfej><see gbhd><see jfje>).
 Here is an incomplete list of how InText is different:
   D. Multiple files can contain markers, with each of these files can be used as
-     input (<see ggcb><see fjab><see fegg> can use multiple files this way, but logically
+     input (<see hfej><see gbhd><see jfje> can use multiple files this way, but logically
      they are put into one master file before citing, I suspect), and one
      formatted bibliography will be created containing the references used in
      every input file (all input bibliography information is contained in a
@@ -59,7 +59,7 @@ Here is an incomplete list of how InText is different:
      A marker's key points to an array of objects which have a field for the
      actual key of a reference used in a marker and a locator for that
      reference.
-  G. B#2's file is a JSON<see gibh> file. Its layout is found below in the
+  G. B#2's file is a JSON<see cajd> file. Its layout is found below in the
      "JSON File" section
   H. None of the key-value pairs from B#2(i) are mandatory, and they can be
      whatever you'd like them to be.
@@ -110,29 +110,31 @@ Here is an incomplete list of how InText is different:
 }
 
 
-This project is cited with InText<see abei>. See that repository for
+This project is cited with InText<see hdaa>. See that repository for
 for information (specifically, the "intext" folder and "intextconfig.json" files
-are relevant to InText). Further, this repository is managed with <see fgci>.
-Setting up the git repository happened as follows:
+are relevant to InText, while the files in the "intext" folder are processed by
+InText and InText saves their outputs in hte "intext" folder's parent folder
+using the name given to them in the "intext" folder). Further, this repository
+is managed with <see jbhg>. Setting up the git repository happened as follows:
 1. Ran "git init"
 2. Used "git add" to ready all files for the commit
 3. Did "git commit" to perform the first commit
-This repository is hosted on GitHub<see afbd>. On that page (after logging
+This repository is hosted on GitHub<see hjdd>. On that page (after logging
 in), these steps were taken to set up the repository on GitHub (all webpage
-steps were done with Firefox<see ceeh>):
-  1. Clicked "New" in top left (this navigates to <see hbid>)
+steps were done with Firefox<see dijb>):
+  1. Clicked "New" in top left (this navigates to <see fhfg>)
   2. Set "Repository name" to "InText", keeping myself (benvcutilli) as owner
   3. Included no description
   4. Kept the repository public
   5. Did not have it create a README, .gitignore, or license
   6. Clicked the button to confirm making the repository
   7. Went to my local git repository and, as instructed by the web
-     page<see igda> that followed the creation of the GitHub
+     page<see eiec> that followed the creation of the GitHub
      repository (in the "...or push an existing repository from the command
      line" section), ran
        git remote add origin https://github.com/benvcutilli/InText.git
        git push -u origin master
-  8. Reloaded <see igda> to make sure the repository was
+  8. Reloaded <see eiec> to make sure the repository was
      successfully uploaded.
 Updates to this repository are generally executed with Git as follows:
   1. Maybe a "git status" to see what files need to be readied with "git add"

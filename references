@@ -1,64 +1,10 @@
-         abei
-    Title - InText
-   Author - Ben Cutilli
-      URL - https://github.com/benvcutilli/InText
-
-         afbd
-    Title - GitHub
-      URL - github.com
-Retrieved - 2019.5.28
-
-         afdj
+         cabb
     Title - InText
    Author - Cutilli, Benjamin
 Retrieved - 2019.5.20
   Version - Pre-release
 
-         ccfh
-    Title - Microsoft Office
-   Author - Microsoft Corporation
-      URL - https://products.office.com/en-us/home
-      Via - Searching for "office" on google.com
-
-         ceeh
-    Title - Firefox Quantum
-   Author - Mozilla
-  Version - 66.0.4
-      URL - https://www.mozilla.org/en-US/firefox/
-  Comment - For macOS. URL for this reference found by searching for "firefox quantum" on google.com
-
-         eagg
-    Title - random
-   Author - The Python Software Foundation
-      URL - https://docs.python.org/3/library/random.html
-
-         eagi
-    Title - sys
-   Author - The Python Software Foundation
-      URL - https://docs.python.org/3/library/sys.html
-
-         fegg
-    Title - pdflatex
-   Author - The Thanh, Han & Sojka, Peter & Zlatuska, Jiri & Breitenlohner, Peter & Knuth, Donald E. & Trickey, Howard & Curtis, Pavel & Rokicki, Thomas & Morgan, Tim & Olsak, Petr
-      URL - http://www.tug.org/mactex/
-  Comment - Authors were from the man page of pdflatex, and written in the order shown to preserve any sort of relative due credit. This software is distributed with MacTeX, for which the URL is provided.
-
-         fgci
-    Title - Git
-      URL - https://git-scm.com/
-
-         fjab
-    Title - LaTeX
-      URL - https://www.latex-project.org/
-      Via - Searching for "latex" on google.com
-
-         ggcb
-    Title - BibTeX
-   Author - Patashnik, Oren
-      URL - https://www.ctan.org/pkg/bibtex
-      Via - https://en.wikipedia.org/wiki/BibTeX
-
-         gibh
+         cajd
     Title - Javascript Object Notation
    Author - ECMA International
       URL - http://www.ecma-international.org/publications/files/ECMA-ST/ECMA-404.pdf
@@ -67,25 +13,79 @@ Retrieved - 2019.5.20
 Published - 2017.12
       Via - https://www.json.org/
 
-         hbbf
-    Title - json
-   Author - The Python Software Foundation
-      URL - https://docs.python.org/3/library/json.html
+         dijb
+    Title - Firefox Quantum
+   Author - Mozilla
+  Version - 66.0.4
+      URL - https://www.mozilla.org/en-US/firefox/
+  Comment - For macOS. URL for this reference found by searching for "firefox quantum" on google.com
 
-         hbid
-    Title - Create a New Repository
-      URL - https://github.com/new
-   Author - GitHub, Inc.
-Retrieved - 2019.5.28
-
-         igda
+         eiec
     Title - benvcutilli/InText
    Author - Ben Cutilli
       URL - https://github.com/benvcutilli/InText
 Retrieved - 2019.5.28
 
-         igji
+         fdfh
+    Title - random
+   Author - The Python Software Foundation
+      URL - https://docs.python.org/3/library/random.html
+
+         fhfg
+    Title - Create a New Repository
+      URL - https://github.com/new
+   Author - GitHub, Inc.
+Retrieved - 2019.5.28
+
+         gaca
     Title - pathlib
    Author - The Python Software Foundation
       URL - https://docs.python.org/3/library/pathlib.html
+
+         gbhd
+    Title - LaTeX
+      URL - https://www.latex-project.org/
+      Via - Searching for "latex" on google.com
+
+         gjfc
+    Title - json
+   Author - The Python Software Foundation
+      URL - https://docs.python.org/3/library/json.html
+
+         hdaa
+    Title - InText
+   Author - Ben Cutilli
+      URL - https://github.com/benvcutilli/InText
+
+         hfej
+    Title - BibTeX
+   Author - Patashnik, Oren
+      URL - https://www.ctan.org/pkg/bibtex
+      Via - https://en.wikipedia.org/wiki/BibTeX
+
+         hjdd
+    Title - GitHub
+      URL - github.com
+Retrieved - 2019.5.28
+
+         iagg
+    Title - Microsoft Office
+   Author - Microsoft Corporation
+      URL - https://products.office.com/en-us/home
+      Via - Searching for "office" on google.com
+
+         jbhg
+    Title - Git
+      URL - https://git-scm.com/
+
+         jeii
+    Title - sys
+   Author - The Python Software Foundation
+      URL - https://docs.python.org/3/library/sys.html
+
+         jfje
+    Title - pdflatex
+   Author - The Thanh, Han & Sojka, Peter & Zlatuska, Jiri & Breitenlohner, Peter & Knuth, Donald E. & Trickey, Howard & Curtis, Pavel & Rokicki, Thomas & Morgan, Tim & Olsak, Petr
+      URL - http://www.tug.org/mactex/
+  Comment - Authors were from the man page of pdflatex, and written in the order shown to preserve any sort of relative due credit. This software is distributed with MacTeX, for which the URL is provided.
 
