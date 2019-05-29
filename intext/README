@@ -110,9 +110,10 @@ Here is an incomplete list of how InText is different:
 }
 
 
-This project is cited with ^^^intextrepository^^^. See that repository for
-for information. Further, this repository is managed with ^^^git^^^. Setting up
-the git repository happened as follows:
+This project is cited with InText^^^intextrepository^^^. See that repository for
+for information (specifically, the "intext" folder and "intextconfig.json" files
+are relevant to InText). Further, this repository is managed with ^^^git^^^.
+Setting up the git repository happened as follows:
 1. Ran "git init"
 2. Used "git add" to ready all files for the commit
 3. Did "git commit" to perform the first commit

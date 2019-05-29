@@ -2,13 +2,13 @@
 #   <capitalized letter>#[number][(roman numeral)]
 # refer to points made in the README
 
-# json from <see gcbh>
+# json from <see hbbf>
 import json
-# random from <see fcba>
+# random from <see eagg>
 import random
-# sys from <see adid>
+# sys from <see eagi>
 import sys
-# pathlib from <see ebdb>, using Path class is from <see ebdb: Introduction section>
+# pathlib from <see igji>, using Path class is from <see igji: Introduction section>
 from pathlib import Path
 
 # The indicators that users must use in their input files to indicate where
@@ -198,7 +198,7 @@ for p in paths:
         if len(markerKey) == 0:
             break
         # The validKey variable and its subsequent usage was necessary as the
-        # <see fjei> code would fail to be processed by InText as the break
+        # <see afdj> code would fail to be processed by InText as the break
         # that was where validKey = False was would just break out of the
         # surrounding for loop, not the while loop (this is besides the fact
         # that break was the wrong choice; continue was the right way to go,
@@ -209,7 +209,7 @@ for p in paths:
                 validKey = False
         if not validKey:
             # The next two lines were necessary as InText would hang on the code
-            # from <see fjei> if continue were to occur as the beginning
+            # from <see afdj> if continue were to occur as the beginning
             # signal of the invalid marker wouldn't be passed after key
             # validity failed (therefore causing the same marker signal to
             # be detected in the next loop, causing an infinite loop)
