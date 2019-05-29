@@ -1,42 +1,86 @@
-         abhc
+         adid
+    Title - sys
+   Author - The Python Software Foundation
+      URL - https://docs.python.org/3/library/sys.html
+
+         aebi
+    Title - BibTeX
+   Author - Patashnik, Oren
+      URL - https://www.ctan.org/pkg/bibtex
+      Via - https://en.wikipedia.org/wiki/BibTeX
+
+         afcd
     Title - benvcutilli/InText
    Author - Ben Cutilli
       URL - https://github.com/benvcutilli/InText
 Retrieved - 2019.5.28
 
-         cbdg
+         cagd
+    Title - Git
+      URL - https://git-scm.com/
+
+         daef
     Title - pdflatex
    Author - The Thanh, Han & Sojka, Peter & Zlatuska, Jiri & Breitenlohner, Peter & Knuth, Donald E. & Trickey, Howard & Curtis, Pavel & Rokicki, Thomas & Morgan, Tim & Olsak, Petr
       URL - http://www.tug.org/mactex/
   Comment - Authors were from the man page of pdflatex, and written in the order shown to preserve any sort of relative due credit. This software is distributed with MacTeX, for which the URL is provided.
 
-         cbee
-    Title - LaTeX
-      URL - https://www.latex-project.org/
-      Via - Searching for "latex" on google.com
+         dcig
+    Title - Firefox Quantum
+   Author - Mozilla
+  Version - 66.0.4
+      URL - https://www.mozilla.org/en-US/firefox/
+  Comment - For macOS. URL for this reference found by searching for "firefox quantum" on google.com
 
-         ceeb
+         ebdb
     Title - pathlib
    Author - The Python Software Foundation
       URL - https://docs.python.org/3/library/pathlib.html
 
-         daab
+         fbbi
+    Title - Microsoft Office
+   Author - Microsoft Corporation
+      URL - https://products.office.com/en-us/home
+      Via - Searching for "office" on google.com
+
+         fcba
+    Title - random
+   Author - The Python Software Foundation
+      URL - https://docs.python.org/3/library/random.html
+
+         fchb
+    Title - InText
+   Author - Ben Cutilli
+      URL - https://github.com/benvcutilli/InText
+
+         fdjf
+    Title - GitHub
+      URL - github.com
+Retrieved - 2019.5.28
+
+         fjei
     Title - InText
    Author - Cutilli, Benjamin
 Retrieved - 2019.5.20
   Version - Pre-release
 
-         dihj
+         gcbh
     Title - json
    Author - The Python Software Foundation
       URL - https://docs.python.org/3/library/json.html
 
-         fcaf
-    Title - random
-   Author - The Python Software Foundation
-      URL - https://docs.python.org/3/library/random.html
+         gjej
+    Title - Create a New Repository
+      URL - https://github.com/new
+   Author - GitHub, Inc.
+Retrieved - 2019.5.28
 
-         fdcf
+         hfga
+    Title - LaTeX
+      URL - https://www.latex-project.org/
+      Via - Searching for "latex" on google.com
+
+         jhbf
     Title - Javascript Object Notation
    Author - ECMA International
       URL - http://www.ecma-international.org/publications/files/ECMA-ST/ECMA-404.pdf
@@ -44,48 +88,4 @@ Retrieved - 2019.5.20
 Retrieved - 2019.5.20
 Published - 2017.12
       Via - https://www.json.org/
-
-         febj
-    Title - Microsoft Office
-   Author - Microsoft Corporation
-      URL - https://products.office.com/en-us/home
-      Via - Searching for "office" on google.com
-
-         fgjd
-    Title - Git
-      URL - https://git-scm.com/
-
-         fiib
-    Title - sys
-   Author - The Python Software Foundation
-      URL - https://docs.python.org/3/library/sys.html
-
-         iddf
-    Title - Create a New Repository
-      URL - https://github.com/new
-   Author - GitHub, Inc.
-Retrieved - 2019.5.28
-
-         igda
-    Title - Firefox Quantum
-   Author - Mozilla
-  Version - 66.0.4
-      URL - https://www.mozilla.org/en-US/firefox/
-  Comment - For macOS. URL for this reference found by searching for "firefox quantum" on google.com
-
-         iicd
-    Title - GitHub
-      URL - github.com
-Retrieved - 2019.5.28
-
-         jaac
-    Title - InText
-   Author - Ben Cutilli
-      URL - https://github.com/benvcutilli/InText
-
-         jdbh
-    Title - BibTeX
-   Author - Patashnik, Oren
-      URL - https://www.ctan.org/pkg/bibtex
-      Via - https://en.wikipedia.org/wiki/BibTeX
 

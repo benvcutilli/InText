@@ -133,3 +133,7 @@ steps were done with Firefox^^^firefox^^^):
        git push -u origin master
   8. Reloaded ^^^intextrepositorypage^^^ to make sure the repository was
      successfully uploaded.
+Updates to this repository are generally executed with Git as follows:
+  1. Maybe a "git status" to see what files need to be readied with "git add"
+  2. "git add" those files
+  3. "git push origin master"
