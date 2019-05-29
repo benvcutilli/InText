@@ -1,0 +1,46 @@
+{
+  "references": {
+    "firstreference": {
+      "Title": "The Reference #1",
+      "Author": "Me",
+      "Comment": "Via ^^^secondreference^^^"
+    },
+    "secondreference": {
+      "Title": "Reference #2",
+      "Author": "You"
+    }
+  },
+  "markers": {
+    "file1marker": [
+      {
+        "refkey": "firstreference"
+      }
+    ],
+    "file2marker": [
+      {
+        "refkey": "firstreference",
+        "locator": "Somewhere"
+      },
+      {
+        "refkey": "secondreference",
+        "locator": "somewhere else"
+      }
+    ],
+    "file3marker": [
+      {
+        "refkey": "secondreference",
+        "locator": "A place"
+      }
+    ],
+    "file3marker2": [
+      {
+        "refkey": "secondreference"
+      }
+    ],
+    "secondreference": [
+      {
+        "refkey": "secondreference"
+      }
+    ]
+  }
+}

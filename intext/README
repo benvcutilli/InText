@@ -1,0 +1,110 @@
+                            InText
+InText is a program that places citations in a file and creates a bibliography
+for those citations to refer to. In this sense, it is similar to
+^^^bibtexlatex^^^ and ^^^office^^^, which provide similar functionality. Here
+are the ways in which InText is similar:
+  A. Users put markers throughout a file to tell InText where to place
+     citations
+    1. Such a file is a plain-text file (idea from ^^^bibtexlatex^^^ only)
+    2. A marker is written in plain-text as a piece of markup (idea from
+       ^^^bibtexlatex^^^ only)
+    3. Markers make an association with a reference through a key placed in the
+       marker (idea from ^^^bibtexlatex^^^ only). Further, each marker can refer
+       to multiple references (idea from ^^^bibtexlatex^^^ only).
+    3. A locator for a reference can be included with marker information
+       (regarding ^^^bibtexlatex^^^, I don't know if it allows multiple
+       references associated with a marker where each has their own locator).
+  B. A bibliography is made using only references that were cited (idea from
+     ^^^bibtexlatex^^^ only)
+      1. The bibliography will also be searched for markers in case something
+         in the bibliography cites a reference (idea from ^^^bibtexlatex^^^
+         only)
+      2. InText draws bibliography information from a structure the user
+         creates (like ^^^bibtexlatex^^^, this structure is contained in its own
+         file)
+         i.   Each reference described in this file is given a unique key so
+              that the reference can be associated with a marker (idea from
+              ^^^bibtexlatex^^^ only)
+         ii.  Just like ^^^office^^^ and ^^^bibtexlatex^^^, a set of information
+              is defined for each reference. An element of this set may
+              include the reference's title, for example. The value of this
+              element is associated with a key describing the element.
+      3. Each reference in the formatted bibliography is given some sort of
+         value that is placed in the formatted in-text citations (so that way
+         those citations clearly point to something in the formatted
+         bibliography)
+  C. The style of a formatted in-text citation and the formatted bibliography
+     is changeable. Users just need to change a variable for each to a plugin
+     function with a compatible argument signature (I don't know if such
+     variables exist in ^^^bibtexlatex^^^ and ^^^office^^^, but some sort of
+     plugin facility exists in ^^^bibtexlatex^^^).
+Here is an incomplete list of how InText is different:
+  D. Multiple files can contain markers, with each of these files can be used as
+     input (^^^bibtexlatex^^^ can use multiple files this way, but logically
+     they are put into one master file before citing, I suspect), and one
+     formatted bibliography will be created containing the references used in
+     every input file (all input bibliography information is contained in a
+     single file described by B#2). For every input file, there is an output
+     file. InText will recursively search a directory called "intext", using as
+     input every file found in that search. All output files will retain their
+     same spots relative to each other, but the root relative directory of all
+     the files changes from the "intext" folder to the directory containing the
+     "intext" folder. All of this is done so that InText works well with coding
+     projects. (FIX: The "multiple files" thing is shared to some degree with
+     BibTeX and LaTeX, so clarify how exactly it is different)
+  E. InText has its own unique bibliography output format and citation output
+     format.
+  F. A marker only receives one key. This key points to information about the
+     marker, and this information is contained the file described in B#2.
+     A marker's key points to an array of objects which have a field for the
+     actual key of a reference used in a marker and a locator for that
+     reference.
+  G. B#2's file is a JSON^^^json^^^ file. Its layout is found below in the
+     "JSON File" section
+  H. None of the key-value pairs from B#2(i) are mandatory, and they can be
+     whatever you'd like them to be.
+
+
+
+     JSON File
+-------------------
+
+{
+  "references": {
+    "<reference key>": {
+      "<info descriptor>": "<info>",
+      "<info descriptor>": "<info>",
+      "<info descriptor>": "<info>",
+    },
+    "<reference key>": {
+      "<info descriptor>": "<info>",
+      "<info descriptor>": "<info>",
+      "<info descriptor>": "<info>",
+    },
+    ...
+  },
+  "markers": {
+    "<marker key>": [
+      {
+        "refkey" : "<reference key>",
+        "locator": "<optional in-reference location>"
+      },
+      {
+        "refkey" : "<reference key>",
+        "locator": "<optional in-reference location>"
+      },
+      ...
+    ],
+    "<marker key>": [
+      {
+        "refkey" : "<reference key>",
+        "locator": "<optional in-reference location>"
+      },
+      {
+        "refkey" : "<reference key>",
+        "locator": "<optional in-reference location>"
+      },
+      ...
+    ],
+    ...
+}

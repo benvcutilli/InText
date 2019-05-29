@@ -1,0 +1,116 @@
+{
+  "references": {
+    "pyjson": {
+      "Title"  : "json",
+      "Author" : "The Python Software Foundation",
+      "URL"    : "https://docs.python.org/3/library/json.html"
+    },
+    "pyrandom": {
+      "Title"  : "random",
+      "Author" : "The Python Software Foundation",
+      "URL"    : "https://docs.python.org/3/library/random.html"
+    },
+    "pysys": {
+      "Title"  : "sys",
+      "Author" : "The Python Software Foundation",
+      "URL"    : "https://docs.python.org/3/library/sys.html"
+    },
+    "pypathlib": {
+      "Title"  : "pathlib",
+      "Author" : "The Python Software Foundation",
+      "URL"    : "https://docs.python.org/3/library/pathlib.html"
+    },
+    "json": {
+      "Title"     : "Javascript Object Notation",
+      "Author"    : "ECMA International",
+      "URL"       : "http://www.ecma-international.org/publications/files/ECMA-ST/ECMA-404.pdf",
+      "Comment"   : "What JSON stands for (which was used in the title I made for this reference) is from this reference's page iii, and also from past experience",
+      "Retrieved" : "2019.5.20",
+      "Published" : "2017.12",
+      "Via"       : "https://www.json.org/"
+    },
+    "bibtex": {
+      "Title"  : "BibTeX",
+      "Author" : "Patashnik, Oren",
+      "URL"    : "https://www.ctan.org/pkg/bibtex",
+      "Via"    : "https://en.wikipedia.org/wiki/BibTeX"
+    },
+    "latex": {
+      "Title" : "LaTeX",
+      "URL"   : "https://www.latex-project.org/",
+      "Via"   : "Searching for \"latex\" on google.com"
+    },
+    "pdflatex": {
+      "Title"   : "pdflatex",
+      "Author"  : "The Thanh, Han & Sojka, Peter & Zlatuska, Jiri & Breitenlohner, Peter & Knuth, Donald E. & Trickey, Howard & Curtis, Pavel & Rokicki, Thomas & Morgan, Tim & Olsak, Petr",
+      "URL"     : "http://www.tug.org/mactex/",
+      "Comment" : "Authors were from the man page of pdflatex, and written in the order shown to preserve any sort of relative due credit. This software is distributed with MacTeX, for which the URL is provided."
+    },
+    "office": {
+      "Title"  : "Microsoft Office",
+      "Author" : "Microsoft Corporation",
+      "URL"    : "https://products.office.com/en-us/home",
+      "Via"    : "Searching for \"office\" on google.com"
+    },
+    "intext": {
+      "Title": "InText",
+      "Author": "Cutilli, Benjamin",
+      "Retrieved": "2019.5.20",
+      "Version": "Pre-release"
+    }
+  },
+  "markers": {
+    "pyjson": [
+      {
+        "refkey": "pyjson"
+      }
+    ],
+    "pypathlib": [
+      {
+        "refkey": "pypathlib"
+      }
+    ],
+    "pypathlibintro": [
+      {
+        "refkey": "pypathlib",
+        "locator": "Introduction section"
+      }
+    ],
+    "pysys": [
+      {
+        "refkey": "pysys"
+      }
+    ],
+    "pyrandom": [
+      {
+        "refkey": "pyrandom"
+      }
+    ],
+    "office": [
+      {
+        "refkey": "office"
+      }
+    ],
+    "bibtexlatex": [
+      {
+        "refkey": "bibtex"
+      },
+      {
+        "refkey": "latex"
+      },
+      {
+        "refkey": "pdflatex"
+      }
+    ],
+    "json": [
+      {
+        "refkey": "json"
+      }
+    ],
+    "intext": [
+      {
+        "refkey": "intext"
+      }
+    ]
+  }
+}
