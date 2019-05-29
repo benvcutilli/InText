@@ -57,6 +57,39 @@
       "Author": "Cutilli, Benjamin",
       "Retrieved": "2019.5.20",
       "Version": "Pre-release"
+    },
+    "intextrepository": {
+      "Title": "InText",
+      "Author": "Ben Cutilli",
+      "URL": "https://github.com/benvcutilli/InText"
+    },
+    "intextrepositorypage": {
+      "Title": "benvcutilli/InText",
+      "Author": "Ben Cutilli",
+      "URL": "https://github.com/benvcutilli/InText",
+      "Retrieved": "2019.5.28"
+    },
+    "git": {
+      "Title": "Git",
+      "URL": "https://git-scm.com/"
+    },
+    "github": {
+      "Title": "GitHub",
+      "URL": "github.com",
+      "Retrieved": "2019.5.28"
+    },
+    "githubnew": {
+      "Title": "Create a New Repository",
+      "URL": "https://github.com/new",
+      "Author": "GitHub, Inc.",
+      "Retrieved": "2019.5.28"
+    },
+    "firefox": {
+      "Title": "Firefox Quantum",
+      "Author": "Mozilla",
+      "Version": "66.0.4",
+      "URL": "https://www.mozilla.org/en-US/firefox/",
+      "Comment": "For macOS. URL for this reference found by searching for \"firefox quantum\" on google.com"
     }
   },
   "markers": {
@@ -110,6 +143,36 @@
     "intext": [
       {
         "refkey": "intext"
+      }
+    ],
+    "intextrepository": [
+      {
+        "refkey": "intextrepository"
+      }
+    ],
+    "intextrepositorypage": [
+      {
+        "refkey": "intextrepositorypage"
+      }
+    ],
+    "git": [
+      {
+        "refkey": "git"
+      }
+    ],
+    "github": [
+      {
+        "refkey": "github"
+      }
+    ],
+    "githubnew": [
+      {
+        "refkey": "githubnew"
+      }
+    ],
+    "firefox": [
+      {
+        "refkey": "firefox"
       }
     ]
   }

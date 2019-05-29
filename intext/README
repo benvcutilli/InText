@@ -108,3 +108,28 @@ Here is an incomplete list of how InText is different:
     ],
     ...
 }
+
+
+This project is cited with ^^^intextrepository^^^. See that repository for
+for information. Further, this repository is managed with ^^^git^^^. Setting up
+the git repository happened as follows:
+1. Ran "git init"
+2. Used "git add" to ready all files for the commit
+3. Did "git commit" to perform the first commit
+This repository is hosted on GitHub^^^github^^^. On that page (after logging
+in), these steps were taken to set up the repository on GitHub (all webpage
+steps were done with Firefox^^^firefox^^^):
+  1. Clicked "New" in top left (this navigates to ^^^githubnew^^^)
+  2. Set "Repository name" to "InText", keeping myself (benvcutilli) as owner
+  3. Included no description
+  4. Kept the repository public
+  5. Did not have it create a README, .gitignore, or license
+  6. Clicked the button to confirm making the repository
+  7. Went to my local git repository and, as instructed by the web
+     page^^^intextrepositorypage^^^ that followed the creation of the GitHub
+     repository (in the "...or push an existing repository from the command
+     line" section), ran
+       git remote add origin https://github.com/benvcutilli/InText.git
+       git push -u origin master
+  8. Reloaded ^^^intextrepositorypage^^^ to make sure the repository was
+     successfully uploaded.
