@@ -1,0 +1,42 @@
+{
+    "references": {
+        "ref1": {
+            "Title": "Reference 1",
+            "Author": "None"
+        },
+        "ref2": {
+            "Title": "Reference 2^^^marker1^^^pppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppp",
+            "Author^^^marker2^^^": "Someone"
+        }
+    },
+    "markers": {
+        "marker1": [
+            {
+                "refkey": "ref1",
+                "locator": "12345"
+            }
+        ],
+        "marker2": [
+            {
+                "refkey": "ref1",
+                "locator": "67890"
+            },
+            {
+                "refkey": "ref2"
+            }
+        ]
+    },
+    "delimiter": "^^^",
+
+    "citeIn": [
+        "one",
+	"symlink/file",
+	"normalcite/two",
+	"nestedcite/five",
+	"symlink/directory/five",
+	"symlink/directory/folder/three",
+	"nestedcite/folder/three",
+	"nestedcite/folder/four",
+	"symlink/directory/folder/four"
+    ]
+}
