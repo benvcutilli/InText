@@ -17,24 +17,26 @@ I couldn't do this with ^^^inspiration^^^). Therefore, InText follows
        including keys).
           a. Each reference is used in in-text citations via a marker identifier in the file. The
 	     identifier contains no spacing (InText also restricts it to letters and numbers,
-	     thereby choosing a subset of what ^^^inspiration1^^^ allows). To point out that an
-	     identifier is being used, they are surrounded by unique text ("delimiters") that
-	     indicates as such. The whole package is called a "marker" (our terminology, not theirs
-	     as far as I know, but "\cite[]{}" of ^^^markeridea^^^ did give us the idea of
-	     some kind of marker). These are used where the in-text citations end up so that InText
-	     (and Bibtex and LaTeX) knows which reference needs to be cited there. In InText, one
-	     marker's key is used to refer to multiple references at one point in a file; in the
-	     file described by (1), this is achieved by saying, in the "markers" dictionary
-	     (^^^inspiration1^^^ doesn't have this) which marker key (which is alphanumeric probably
-	     to be similar to other types of keys in this program) relates to which list of
-	     references. However, ^^^inspiration^^^ marker identifiers are the reference keys
-	     found in the .bib file, and the user lists each key in the marker itself.
+	     thereby choosing a subset of what ^^^inspiration1^^^ allows; it can only be
+	     ASCII^^^restriction^^^ because this is the least likely to cause issues for programming
+	     language parsers). To point out that an identifier is being used, they are surrounded
+	     by unique text ("delimiters") that indicates as such. The whole package is called a
+	     "marker" (our terminology, not theirs as far as I know, but "\cite[]{}" of
+	     ^^^markeridea^^^ did give us the idea of some kind of marker). These are used
+	     where the in-text citations end up so that InText (and Bibtex and LaTeX) knows which
+	     reference needs to be cited there. In InText, one marker's key is used to refer to
+	     multiple references at one point in a file; in the file described by (1), this is
+	     achieved by saying, in the "markers" dictionary (^^^inspiration1^^^ doesn't have this)
+	     which marker key (which is alphanumeric probably to be similar to other types of keys
+	     in this program) relates to which list of references. However, ^^^inspiration^^^
+	     marker identifiers are the reference keys found in the .bib file, and the user lists
+	     each key in the marker itself.
           b. Markers support locators if needed; however, InText can do multiple locators, one for  
 	     each reference used in the marker, while as far as I can tell, ^^^markeridea^^^
 	     can't. InText also (probably uniquely) allows multiple locators for the same reference
 	     to be used in a marker simply by having the marker refer to the reference twice, one of
 	     which is with the new locator. It follows that using a reference multiple times per
-	     marker is allowed as well, whereas in ^^^markeridea^^^ I believe it is not.
+	     marker is allowed as well, whereas in ^^^markeridea^^^ it may not be.
     2. The program doesn't modify the original files; such a program isn't really that feasible
        in the end as it likely will lead to too much confusion, although now that I think about
        it, I may have just thought of a way to do it; we'll see
@@ -53,10 +55,10 @@ I couldn't do this with ^^^inspiration^^^). Therefore, InText follows
        SHA-256^^^chosenhash^^^. The input to that function is the data supplied by the user for
        that reference. Hashing keeps the labels consistent in order to avoid Git^^^git^^^ or
        something else not picking up changes do to randomly-generated keys changing all the time or
-       what-have-you. SHA-256 was chosen beacause SHA-1^^^avoidedhash^^^ is known to have
-       collision issues (though very minor, and I forget my reference for all of this). The final
-       in-text citations will show these hashes (but shortened) so that the reader knows which
-       references are being cited.
+       what-have-you. SHA-256 was chosen beacause SHA-1^^^avoidedhash^^^ is known to have collision
+       issues (though very minor, and I forget my reference for all of this). The final in-text
+       citations will show these hashes (but shortened, as inspired^^^git^^^ by how Git does this
+       sometimes, I think) so that the reader knows which references are being cited.
     8. I suppose I should credit both ^^^inspiration^^^ and maybe ^^^inspiration3^^^ for giving
        me the idea to create a program that does this whole
        in-text-citation-thing-with-a-list-of-references/cite-like-you're-writing-a-paper thing, but
@@ -84,7 +86,11 @@ inpsiration) as well (but we invert it) by
        at the files with citations in them, whose filesystem tree structure matches that of the
        interior folder, except outside of that folder and placed on the same level as that folder.
        Therefore, the "commits" are actually not within that folder, while the working tree IS
-       there, which is the opposite of what Git does. Hence, "inverted".
+       there, which is the opposite of what Git does. Hence, "inverted". This also prevents the
+       issue I previously had where I tried to solve this by having the path of the file take on a
+       suffix that InText would recognize. The issue was that this would cause code editors like
+       ^^^folderotherreason^^^ to think the files were in an unrecognized language, which changes
+       how the text would be colored (very inconvenient).
    10. To avoid users accidentally modifying the output files made by InText, each of those files
        are hashed (using ^^^chosenhash^^^) to figure out if they had changed from the last time
        InText was run. This is similar to Git in that I think Git hashes are generated based on the
@@ -102,12 +108,13 @@ inpsiration) as well (but we invert it) by
 To see which parts apply to where in this file, the numbers/letters above are used below to refer
 to them.
 
-Everything in here is cited by ^^^citer^^^. "^^^" was chosen to indicate markers because I am not
-aware of JSON^^^ecma^^^ or Python^^^language^^^ (used for this project, by the way) using that for
-anything. What was written by a human can be found in "uncited", with the exception of
-intextconfiguration.json. A file like "intextconfiguration.json" and the folder "intext" itself is
-required by the aforementioned program. Git^^^git^^^ is also used for version control, so the .git
-folder is generated from that.
+Everything in here is cited by InText^^^citer^^^. "^^^" was chosen to indicate markers because I am
+not aware of JSON^^^ecma^^^ or Python^^^language^^^ (used for this project, by the way) using that
+for anything. It was previously chosen for the same ASCII reasons as in 1a, but that's not the case
+anymore, though I still stuck with it. What was written by a human can be found in "uncited", with
+the exception of intextconfiguration.json. A file like "intextconfiguration.json" and the folder
+"intext" itself is required by the aforementioned program. Git^^^git^^^ is also used for version
+control, so the .git folder is generated from that. "references" was generated by InText.
 
 
 For this program (and as is common in, and a good idea from, other projects), the best documentation

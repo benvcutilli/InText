@@ -104,7 +104,7 @@ delimiter = re.escape(metadata["delimiter"])
 # believe the "\w+" idea is from something I had done this before, just don't remember for what.
 REGULAR_EXPRESSION_MARKER   = f"{delimiter}(?P<marker>\\w*){delimiter}"
 # Square brackets as a set of candidate characters was inspired by something I can't remember; Using
-# the dash in "a-f" was as well, although not sure where from
+# the dash in "a-f" was as well, although not sure where from. See 1a for more details.
 REGULAR_EXPRESSION_HASH     = r"(.+)\^([a-f\d]+)"
 WIDTH_LEFT                  = 40
 WIDTH_RIGHT                 = 57
@@ -327,7 +327,12 @@ def cite(text: str, meta: dict, path: pathlib.Path) -> str:
         for entry in meta["markers"][marker]:
 
             # Using the same citation style of "[<key>, <locator>]" that can be found elsewhere (I
-            # can't remember where) except the numbers are random
+            # can't remember where, possibly derivative of [643200, page 3], though there
+            # could be others) except the numbers are actually random hexadecimal strings (see the
+            # actual generation of those strings for more information); however, we put each
+            # citation directly next to each other with nothing separating them. We don't combine
+            # citations if they use the same reference; instead, each of them are separate
+            # citations, which is prescribed in [6d7850].
             ########################################################################################
             #                                                                                      #
 

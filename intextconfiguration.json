@@ -1,0 +1,424 @@
+{
+
+    "references": {
+        "pythontextwrap": {
+            "Title": "textwrap — Text wrapping and filling — Python 3.12.0 documentation",
+            "Author": "Python Software Foundation",
+            "URL": "https://docs.python.org/3/library/textwrap.html"
+        },
+        "pythonargparse": {
+            "Title": "argparse — Parser for command-line options, arguments and sub-commands — Python 3.12.0 documentation",
+            "Author": "Python Software Foundation",
+            "URL": "https://docs.python.org/3/library/argparse.html"
+        },
+        "pythonre": {
+            "Title": "re — Regular expression operations — Python 3.12.0 documentation",
+            "Author": "Python Software Foundation",
+            "URL": "https://docs.python.org/3/library/re.html"
+        },
+        "pythonjson": {
+            "Title": "json — JSON encoder and decoder — Python 3.12.1 documentation",
+            "Author": "Python Software Foundation",
+            "URL": "https://docs.python.org/3/library/json.html"
+        },
+        "pythonrandom": {
+            "Title": "random — Generate pseudo-random numbers — Python 3.12.0 documentation",
+            "Author": "Python Software Foundation",
+            "URL": "https://docs.python.org/3/library/random.html"
+        },
+        "pythonpathlib": {
+            "Title": "pathlib — Object-oriented filesystem paths — Python 3.12.0 documentation",
+            "Author": "Python Software Foundation",
+            "URL": "https://docs.python.org/3/library/pathlib.html"
+        },
+        "inspiration1": {
+            "Title": "LaTeX",
+            "Author": "The LaTeX Project",
+            "URL": "https://www.latex-project.org/",
+	    "Comment": "Via a google search"
+        },
+        "inspiration2": {
+            "Title": "Bibtex",
+            "Author": "Oren Patashnik et al",
+            "URL": "https://www.ctan.org/pkg/bibtex"
+        },
+        "inspiration3reference": {
+            "Title": "Microsoft Office",
+            "Author": "Microsoft Corporation",
+            "URL": "office.com",
+	    "Via": "googled for it"
+        },
+        "pythonhashlib": {
+            "Title": "hashlib — Secure hashes and message digests — Python 3.12.0 documentation",
+            "Author": "Python Software Foundation",
+            "URL": "https://docs.python.org/3.12/library/hashlib.html"
+        },
+        "pythonsys": {
+            "Title": "sys — System-specific parameters and functions — Python 3.12.0 documentation",
+            "Author": "Python Software Foundation",
+            "URL": "https://docs.python.org/3/library/sys.html"
+        },
+        "pythoncollectionsabc": {
+            "Title": "collections.abc — Abstract Base Classes for Containers — Python 3.12.0 documentation",
+            "Author": "Python Software Foundation",
+            "URL": "https://docs.python.org/3/library/collections.abc.html"
+        },
+        "deepsparse": {
+            "Title": "Deep Sparse Rectifier Neural Networks",
+            "Author": "Xavier Glorot, Antoine Bordes, Yoshua Bengio",
+            "URL": "https://proceedings.mlr.press/v15/glorot11a/glorot11a.pdf",
+            "Comment": "Authors listed according to importance, from most to least, as it is shown in the paper "
+        },
+	"pythonlocale": {
+	    "Title": "locale — Internationalization services — Python 3.9.0 documentation",
+	    "Author": "Python Software Foundation",
+	    "Fetched": "Date: 2021.10.7",
+	    "URL": "https://docs.python.org/3/library/locale.html",
+	    "Referrer": "Something in ^^^user^^^"
+	},
+	"pythonfunctions": {
+	    "Title": "Built-in Functions — Python 3.9.0 documentation",
+	    "Author": "Python Software Foundation",
+	    "URL": "https://docs.python.org/3/library/functions.html",
+	    "Fetched": "Date: 2020.10.7"
+	},
+	"addons": {
+	    "Title": "Anything that works with Word^^^inspiration3^^^ in order to enable ^^^inspiration3^^^ to cite; maybe I'm thinking of Endnote? It might have only been possible with something like this?"
+	},
+	"chosenhash": {
+            "Title": "Federal Information Processing Standards Publication 180-2",
+	    "Author": "National Institute of Standards and Technology",
+	    "URL": "https://csrc.nist.gov/files/pubs/fips/180-2/final/docs/fips180-2.pdf",
+	    "Referred by": "https://docs.python.org/3.9/library/hashlib.html",
+            "Publication": "2002.8.1"
+	},
+	"ecma": {
+	    "Title": "ECMA-404",
+	    "Author": "ECMA International",
+	    "URL": "https://ecma-international.org/publications-and-standards/standards/ecma-404/",
+	    "Edition": "2",
+	    "Publication": "2017.12",
+	    "Via": "https://www.json.org/json-en.html"
+	},
+	"7159": {
+	    "Title": "The Javascript Objet Notation (JSON) Data Interchange Format",
+	    "Author": "Internet Engineering Task Force",
+	    "URL": "https://datatracker.ietf.org/doc/html/rfc7159.html",
+	    "Via": "Mentioned by ^^^pythonjson^^^ to be used in that module"
+	},
+	"git": {
+	    "Title": "Git",
+	    "URL": "git-scm.com"
+	},
+	"language": {
+	    "Title": "Python",
+	    "Author": "Python Software Foundation",
+	    "URL": "python.org"
+	},
+	"pythonio": {
+	    "Title": "io — Core tools for working with streams — Python 3.12.1 documentation",
+	    "URL": "https://docs.python.org/3/library/io.html",
+	    "Author": "Python Software Foundation"
+	},
+	"pythonhashlib": {
+	    "Title": "hashlib — Secure hashes and message digests — Python 3.12.1 documentation",
+	    "Author": "Python Software Foundation",
+	    "URL": "https://docs.python.org/3/library/hashlib.html"
+	},
+	"citer": {
+	    "Title": "InText",
+	    "Author": "Ben Cutilli",
+	    "URL": "https://github.com/benvcutilli/InText"
+	},
+	"github": {
+	     "Title": "New repository",
+	     "Author": "GitHub, Inc.",
+	     "URL": "https://github.com/new",
+	     "Date of viewing": "2024.1.26 EST"
+	},
+	"inverse": {
+	    "Title": "Git - user-manual Documentation",
+	    "URL": "https://git-scm.com/docs/user-manual"
+	},
+	"btxhak": {
+	    "Title": "Designing BibTeX Styles",
+	    "URL": "https://tug.org/texmf-docs/bibtex/btxhak.pdf",
+	    "Author": "Oren Patashnik",
+	    "Released": "1988.2.8"
+	},
+	"btxbst": {
+	    "Title": "btxbst.doc",
+	    "Author": "Howard Trickey/Oren Patashnik (listed in that order)",
+	    "Additional Information": "Suggested by ^^^frombtxhak^^^",
+	    "URL": "https://tug.org/texmf-docs/bibtex/btxbst.doc",
+	    "Publication": "2010.12.8"
+	},
+	"inspirationcommands": {
+	    "Title": "The biblatex Package",
+	    "Author": "Philip Kime, Moritz Wemheuer, Philipp Lehman (shown in PDF in that order)",
+	    "URL": "https://ctan.math.utah.edu/ctan/tex-archive/macros/latex/contrib/biblatex/doc/biblatex.pdf",
+	    "Publication": "2023.3.5"
+	},
+	"osi": {
+	    "Title": "MIT No Attribution License – Open Source Initiative",
+	    "Author": "Open Source Initiative",
+	    "URL": "https://opensource.org/license/mit-0/",
+	    "Copied on": "2024.1.4 EST"
+	},
+	"citationsinspiration": {
+	    "Title": "IEEE Reference Guide",
+	    "Author": "IEEE Periodicals -- Transactions/Journals Department",
+	    "URL": "https://ieeeauthorcenter.ieee.org/wp-content/uploads/IEEE-Reference-Guide.pdf",
+	    "Revised on": "2018.11.12",
+	    "Via": "Web search with google"
+	},
+	"secondaryieee": {
+            "Title": "Citing in the Text - IEEE - Referencing Guide - Help and Support at Murdoch University",
+	    "Author": "Murdoch University",
+	    "URL": "https://libguides.murdoch.edu.au/IEEE/text",
+	    "Published": "2018.1",
+	    "Via": "googling"
+	},
+	"folderotherreason": {
+	    "Title": "Atom",
+	    "Author": "Github, Inc.",
+	    "URL": "https://atom.io",
+	    "Used": "2018"
+	},
+	"restriction": {
+            "Title": "Information Systems - Coded Character Sets - 7-Bit American National Standard Code For Information Interchange (7-Bit ASCII)",
+	    "Author": "American National Standards Institute",
+	    "URL": "https://webstore.ansi.org/standards/incits/ansix31986r1997",
+	    "Published": "1997",
+	    "Via": "\"Overview\" (which point to the \"References\") sections of https://en.wikipedia.org/wiki/ASCII"
+	}
+    },
+
+    "markers": {
+        "joinusage": [
+            {
+                "refkey": "pythontextwrap",
+                "locator": "textwrap.fill(...)"
+            }
+        ],
+        "inspiration": [
+            {
+                "refkey": "inspiration1"
+            },
+            {
+                "refkey": "inspiration2"
+            },
+	    {
+	        "refkey": "inspirationcommands"
+	    }
+        ],
+	"inspiration3": [
+	    {
+		"refkey": "inspiration3reference"
+	    },
+	    {
+		"refkey": "addons"
+	    }
+	],
+        "pythontextwrap": [
+            {
+                "refkey": "pythontextwrap"
+            }
+        ],
+        "pythonargparse": [
+            {
+                "refkey": "pythonargparse"
+            }
+        ],
+        "pythonre": [
+            {
+                "refkey": "pythonre"
+            }
+        ],
+        "pythonjson": [
+            {
+                "refkey": "pythonjson"
+            }
+        ],
+        "pythonrandom": [
+            {
+                "refkey": "pythonrandom"
+            }
+        ],
+        "pythonpathlib": [
+            {
+                "refkey": "pythonpathlib"
+            }
+        ],
+        "simplehashing": [
+            {
+                "refkey": "pythonhashlib",
+                "locator": "\"Usage\""
+            }
+        ],
+        "pythoncollectionsabc": [
+            {
+                "refkey": "pythoncollectionsabc"
+            }
+        ],
+        "pythonsys": [
+            {
+                "refkey": "pythonsys"
+            }
+        ],
+        "deepsparse": [
+            {
+                "refkey": "deepsparse"
+            }
+        ],
+	"user": [
+            {
+	        "refkey": "pythonfunctions",
+	        "locator": "\"open(...)\"" 
+	    }
+	],
+	"encodingissues": [
+	    {
+		"refkey": "pythonlocale",
+		"locator": "\"under locale.getpreferredencoding(...)\""
+	    },
+	    {
+                "refkey": "pythonfunctions",
+		"locator": "see open(...)"
+	    }
+	],
+	"abcdef": [
+             {
+	         "refkey": "pythonhashlib",
+		 "locator": "\"hexdigest()\"; version 3.9 documentation only"
+	     }
+	],
+	"chosenhash": [
+	    {
+                "refkey": "chosenhash",
+		"locator": "page 21"
+	    }
+	],
+	"avoidedhash": [
+	    {
+		"refkey": "chosenhash",
+		"locator": "page 18"
+	    }
+	],
+	"ecma": [
+	    {
+	        "refkey": "ecma"
+	    },
+	    {
+		"refkey": "7159"
+	    }
+	],
+	"git": [
+	    {
+		"refkey": "git"
+	    }
+	],
+	"language": [
+	    {
+		"refkey": "language"
+	    }
+	],
+	"inspiration1": [
+	    {
+	    	"refkey": "inspiration1"
+	    },
+	    {
+		"refkey": "inspirationcommands"
+	    }
+	],
+	"inspiration2": [
+	    {
+		"refkey": "inspiration2"
+	    }
+	],
+	"pythonio": [
+	    {
+	        "refkey": "pythonio"
+	    }
+	],
+	"pythonhashlib": [
+	     {
+		"refkey": "pythonhashlib"
+	     }
+	],
+	"citer": [
+	    {
+		"refkey": "citer"
+	    }
+	],
+	"github": [
+	    {
+		"refkey": "github"
+	    }
+	],
+	"inverse": [
+	    {
+		"refkey": "inverse",
+		"locator": "\"gitfile\" definition"
+	    }
+	],
+	"style": [
+	    {
+		"refkey": "btxhak"
+	    },
+	    {
+	        "refkey": "btxbst"
+	    }
+	],
+	"printbibliography": [
+	    {
+		"refkey": "inspirationcommands",
+		"locator": "3.8.2"
+	    }
+	],
+	"markeridea": [
+	    {
+		"refkey": "inspirationcommands",
+		"locator": "3.9.1"
+	    },
+	    {
+	        "refkey": "inspiration1"
+	    }
+	],
+	"osi": [
+	    {
+	        "refkey": "osi"
+	    }
+	],
+	"citationsinspiration": [
+            {
+		"refkey": "citationsinspiration",
+		"locator": "page 3"
+	    }
+	],
+	"secondaryieee": [
+	    {
+	        "refkey": "secondaryieee"
+	    }
+	],
+	"folderotherreason": [
+	    {
+		"refkey": "folderotherreason"
+	    }
+	],
+	"restriction": [
+            {
+		"refkey": "restriction"
+	    }
+	]
+    },
+
+    "delimiter": "^^^",
+
+    "citeIn": [
+        "intext.py",
+        "README",
+	"LICENSE"
+    ]
+
+}
